@@ -1,0 +1,4 @@
+LOGO REAL
+Copiá acá el archivo del logo con el nombre "logo.png", "logo.svg" o "logo.webp".
+El componente Logo lo detecta automáticamente en el build. Si no hay archivo,
+se muestra una marca provisoria (ícono de casa + texto).

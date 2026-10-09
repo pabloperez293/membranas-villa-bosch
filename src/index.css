@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #0240a1;
+  --color-brand-dark: #012d73;
+  --color-brand-50: #eef3fc;
+  --color-brand-100: #d9e5f8;
+  --color-ink: #0b1424;
+  --color-paper: #f7f7f5;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    margin: 0;
+    background-color: var(--color-paper);
+    color: var(--color-slate-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  /* Anillo doble: visible tanto sobre fondos claros como oscuros */
+  :focus-visible {
+    outline: 3px solid var(--color-brand);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 2px #fff;
+  }
+  [id] {
+    scroll-margin-top: 5.5rem;
+  }
+}
