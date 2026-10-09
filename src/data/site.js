@@ -140,8 +140,8 @@ export const work = {
   title: 'El trabajo se ve.',
   titleLine2: 'La confianza también.',
   items: [
-    { image: 'workRed', label: '01 / TERMINACIÓN', caption: 'Terraza con terminación roja' },
-    { image: 'workSilver', label: '02 / MEMBRANA', caption: 'Membrana plateada sobre terraza' },
+    { image: 'workRed', label: '01 / TERMINACIÓN', caption: 'Terraza con terminación roja teja' },
+    { image: 'workSilver', label: '02 / MEMBRANA', caption: 'Membrana aluminada sobre terraza' },
     { image: 'workProcess', label: '03 / PROCESO', caption: 'Trabajo en obra' },
   ],
 }
