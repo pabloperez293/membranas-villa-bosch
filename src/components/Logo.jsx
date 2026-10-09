@@ -6,7 +6,7 @@ export default function Logo({ dark = false, className = '' }) {
       aria-label="Membranas Villa Bosch - Inicio"
     >
       <img
-        src="/images/logoMembrana.png"
+        src="../../public/images/logoMembrana.png"
         alt="Membranas Villa Bosch"
         className={`h-12 w-auto object-contain ${
           dark ? 'brightness-0 invert' : ''

@@ -32,15 +32,7 @@ export default function Services() {
                   <span className="text-[10px] font-extrabold tracking-widest text-brand uppercase">{s.tag}</span>
                   <h3 className="mt-2 mb-2 text-lg leading-tight font-bold">{s.title}</h3>
                   <p className="mb-5 text-sm leading-7 text-slate-600">{s.description}</p>
-                  <a
-                    href={whatsappUrl(`Hola, quisiera consultar por: ${s.title.toLowerCase()}.`)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-auto inline-flex items-center gap-1.5 text-sm font-bold text-brand hover:text-brand-dark hover:underline"
-                  >
-                    Consultar por WhatsApp <ArrowUpRight size={16} aria-hidden="true" />
-                    <span className="sr-only"> sobre {s.title} (se abre en una pestaña nueva)</span>
-                  </a>
+               
                 </article>
               </li>
             )

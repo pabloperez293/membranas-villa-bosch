@@ -34,7 +34,6 @@ export default function Work() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-sm font-bold text-brand hover:text-brand-dark hover:underline"
             >
-              Ver más en Instagram <ArrowUpRight size={16} aria-hidden="true" />
               <span className="sr-only"> (se abre en una pestaña nueva)</span>
             </a>
           </div>

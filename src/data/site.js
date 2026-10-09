@@ -139,7 +139,6 @@ export const work = {
   kicker: 'TRABAJOS REALES',
   title: 'El trabajo se ve.',
   titleLine2: 'La confianza también.',
-  text: 'Estas son fotos de trabajos realizados. Mirá el tipo de superficies en las que trabajamos.',
   items: [
     { image: 'workRed', label: '01 / TERMINACIÓN', caption: 'Terraza con terminación roja' },
     { image: 'workSilver', label: '02 / MEMBRANA', caption: 'Membrana plateada sobre terraza' },
